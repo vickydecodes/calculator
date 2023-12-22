@@ -20,8 +20,8 @@ eql.addEventListener('click', function () {
 })
 
 clear.addEventListener('click', function () {
-    ans.innerText = 'Answer';
-    ans.setAttribute('class', "col-span-4 text-center rounded-lg bg-sky-500/100 p-7 h-50 text-blue-600/25 ")
+    ans.innerText = '';
+    
 })
 
 del.addEventListener('click', function () {
